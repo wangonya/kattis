@@ -1,3 +1,4 @@
+# https://open.kattis.com/problems/almostperfect
 from sys import stdin
 
 
