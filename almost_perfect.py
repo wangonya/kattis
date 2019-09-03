@@ -1,4 +1,6 @@
 # https://open.kattis.com/problems/almostperfect
+# TODO: this solution doesn't meet time < 1s for larger values
+# TODO: should be made more efficient
 from sys import stdin
 
 
