@@ -1,11 +1,10 @@
-import math
 from sys import stdin
 
 
 def almost_perfect(p):
     divisor = 1
     _sum = 0
-    while divisor <= math.sqrt(p):
+    while divisor <= p/2:
         if p % divisor == 0:
             _sum += divisor
         divisor += 1
