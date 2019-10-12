@@ -6,7 +6,7 @@ def quality_of_life(p):
     _list = []
     for _ in range(p):
         q, l = sys.stdin.readline().split()
-        qaly = float(q)*float(l)
+        qaly = float(q) * float(l)
         _list.append(qaly)
     print(sum(_list))
 
