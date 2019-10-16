@@ -17,5 +17,5 @@ def bijele(current_pieces):
 
 
 if __name__ == '__main__':
-    current_pieces = sys.stdin.readline().replace(' ', '')
+    current_pieces = sys.stdin.readline().strip().split()
     bijele(current_pieces)
